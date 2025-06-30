@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Text Inputs</h1>
+    <form method="POST">
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Name"
+          value="Bini Babu"
+          name="name"
+          required
+          minlength="3"
+          maxlength="10"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter email"
+          name="email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          name="password"
+          required
+          minlength="6"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="dateValue">Date</label>
+        <input
+          type="date"
+          id="dateValue"
+          placeholder="Enter date"
+          name="dateValue"
+        />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="phone">Phone</label>
+        <input
+          type="number"
+          id="phone"
+          placeholder="Enter phone number"
+          name="phone"
+          value="123456789"
+          disabled
+        />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="file">File</label>
+        <input type="file" id="file" placeholder="Insert file" name="file" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="color">Color</label>
+        <input type="color" id="color" placeholder="Enter color" name="color" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="rangeSet">Range</label>
+        <input
+          type="range"
+          id="rangeSet"
+          placeholder="Enter range"
+          name="rangeSet"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

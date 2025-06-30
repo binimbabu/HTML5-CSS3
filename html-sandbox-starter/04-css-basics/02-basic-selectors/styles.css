@@ -1,0 +1,49 @@
+/* Global selector*/
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+/* Type selectors*/
+/* h2{
+    color: red;
+    font-size: 30px;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+} */
+
+/* Class selectors*/
+.sporty{
+    color: coral;
+}
+.casual{
+    color: aqua;
+}
+.formal{
+    color: blue;
+}
+
+/* ID selectors*/
+
+#container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+/* Multiple Selector*/
+
+.sporty, .casual,.formal{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/*Descendant*/
+#container p{
+background-color: aquamarine;
+}
+
+p{
+    background-color: darkcyan;
+}
